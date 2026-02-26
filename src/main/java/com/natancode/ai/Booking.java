@@ -7,5 +7,6 @@ public record Booking(Long id,
                       String destination,
                       LocalDate startDate,
                       LocalDate endDate,
-                      BookingStatus status) {
+                      BookingStatus status,
+                      Category category) {
 }
